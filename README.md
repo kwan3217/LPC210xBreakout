@@ -16,10 +16,12 @@ The board file has the footprint for a TSSOP-16 and a TSSOP-20 chip. These footp
 I make also has those footprints, for another project I am working on.
 
 # Getting this board
-I recommend getting the board from https://oshpark.com/shared_projects/SdR4aknh. There isn't an explicit bill of materials. Instead, each component has either a Digikey or Mouser part number -- use those for generating your own bill of materials.
+I recommend getting the board from https://oshpark.com/shared_projects/SdR4aknh. There isn't an explicit bill of materials. Instead, the bill of materials is encoded in the schematic (.kicad_sch) file. Each component has either a Digikey or Mouser part number -- use those for generating your own bill of materials. If those exact parts aren't available (Darn chip shortage!) you are on your own, but those numbers should still lead you to the specifications for the given parts, so you can pick substitutes.
 
 # How to modify
 This board is Open Hardware, licensed under the GPL 3.0 license. That's the legal part. My intent is that:
- * You can make as many exact copies of the board as you wish. The link at oshpark.com is a good place to do that.
+ * You can make as many exact copies of the board as you wish, including with my StKwan logo. The link at oshpark.com is a good place to do that.
  * You may modify the board as you wish, but if you do so, please remove my StKwan logo from the board. If you are modifying it, you should take pride in your work and put your name on it anyway.
+   * It's fine if the _only_ modification you make to the board is to put your name on it. Take my logo off in that case, too.
  * Follow the rest of the GPL as concerning share-alike, etc.
+ * The only reason I am licensing the board at all is so I can put the OSHW logo on the board.
