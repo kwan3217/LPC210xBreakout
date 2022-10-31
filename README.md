@@ -16,7 +16,7 @@ The board file has the footprint for a TSSOP-16 and a TSSOP-20 chip. These footp
 I make also has those footprints, for another project I am working on.
 
 # Getting this board
-I recommend getting the board from oshpark.com. There isn't an explicit bill of materials. Instead, each component has either a Digikey or Mouser part number -- use those for generating your own bill of materials.
+I recommend getting the board from https://oshpark.com/shared_projects/SdR4aknh. There isn't an explicit bill of materials. Instead, each component has either a Digikey or Mouser part number -- use those for generating your own bill of materials.
 
 # How to modify
 This board is Open Hardware, licensed under the GPL 3.0 license. That's the legal part. My intent is that:
